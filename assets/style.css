@@ -51,7 +51,7 @@ header {
 }
 
 .flex-item div {
-  padding: 0 13px;
+  padding: 0 10px;
 }
 
 /* LEFT SECTION */
@@ -64,16 +64,10 @@ header {
 
 .microphone .fa-chevron-up {
   font-size: 13px;
-  position: absolute;
-  top: 20px;
-  left: 63px;
 }
 
 .video .fa-chevron-up {
   font-size: 13px;
-  position: absolute;
-  top: 20px;
-  right: 0;
 }
 
 /* /LEFT SECTION */
