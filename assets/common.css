@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;;
+}
+
+
+main {
+  background-color: black;
+  overflow-y: auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}

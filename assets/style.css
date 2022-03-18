@@ -1,0 +1,37 @@
+/* HEADER */
+header {
+  background-color: black;
+  border-bottom: 1px solid white
+}
+.head-icons {
+  flex-direction: row-reverse;
+  padding-top: 10px;
+  color: white;
+}
+
+.head-icons > i, 
+.speaker-view {
+  margin-right: 15px;
+  padding: 8px;
+  background-color: #4A4A4A;
+  border-radius: 8px;
+}
+/* /HEADER */
+
+/* MAIN */
+
+
+
+.zoom-main {
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.zoom-img {
+  flex-basis: 250px;
+  height: 200px;
+  background-image: url(./img/bug-meme.jpeg);
+  background-size: cover;
+}
+/* /MAIN */
