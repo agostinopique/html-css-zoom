@@ -2,6 +2,7 @@
 header {
   background-color: black;
 }
+
 .head-icons {
   flex-direction: row-reverse;
   padding-top: 10px;
@@ -28,6 +29,15 @@ header {
   height: 200px;
   background-image: url(./img/bug-meme.jpeg);
   background-size: cover;
+}
+
+.zoom-img span {
+  padding: 3px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 /* /MAIN */
 
@@ -92,10 +102,12 @@ header {
 .right-section {
   height: 100%;
   background-color: #4A4A4A;
-  color: red;
   padding-right: 10px;
 }
 
+.right-section a{
+  color: red;
+}
 /* /RIGHT SECTION */
 
 /* /FOOTER */
