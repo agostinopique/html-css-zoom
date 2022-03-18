@@ -10,17 +10,13 @@ body {
 
 
 main {
+  height: calc(100vh - 170px);
   background-color: black;
   overflow-y: auto;
 }
 
-.flex {
-  display: flex;
-}
-
-.center {
-  justify-content: center;
-  align-items: center;
+footer{
+  background-color: #222222;
 }
 
 a {
@@ -28,7 +24,6 @@ a {
   color: white;
 }
 
-.container {
-  width: 80%;
-  margin: 0 auto;
+ul {
+  list-style: none;
 }

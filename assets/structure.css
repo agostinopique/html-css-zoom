@@ -6,12 +6,32 @@
 .h70 {
   height: 70px;
 }
+
 .h100 {
   height: 100px;
 }
 
-main { 
-  height: calc(100vh - 170px);
+
+.flex {
+  display: flex;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.relative {
+  position: relative;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
 }
 /* DEBUG */
 
