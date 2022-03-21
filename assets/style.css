@@ -27,8 +27,16 @@ header {
 .zoom-img {
   flex-basis: 250px;
   height: 200px;
+  /*  VERSIONE ORIGINALE DELLA CONSEGNA
   background-image: url(./img/bug-meme.jpeg);
+  background-size: cover; */
+}
+
+.zoom-img img{
   background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
 }
 
 .zoom-img span {
@@ -56,7 +64,7 @@ header {
 
 /* LEFT SECTION */
 
-
+/* CORREZZOINE: Le dimensioni delle icone potevano essere espresse direttamente nella classe degli <i> indicando "fa-2x"o altri valori per aumentarne le dimensioni. */
 .foot-menu i {
   font-size: 30px;
 }
